@@ -30,10 +30,15 @@ var/
 *.egg
 MANIFEST
 
-
 # Jupyter Notebook
-**/.ipynb_checkpoints/
-
+.ipynb_checkpoints
+./artifacts/.ipynb_checkpoints
+./data/.ipynb_checkpoints
+./EDA/.ipynb_checkpoints
+./ml_model_hybrid/.ipynb_checkpoints
+./ml_model_collaborative/.ipynb_checkpoints
+./ml_model_content_based/.ipynb_checkpoints
+./ml_model_popularity/.ipynb_checkpoints
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -69,4 +74,4 @@ data/
 .vscode/
 
 # MacOS
-**/.DS_Store
+.DS_Store
